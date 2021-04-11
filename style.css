@@ -1,0 +1,71 @@
+/*body{ 
+        background-color: #14213d;
+      }
+      */
+  /*
+      h1{
+        font-family:Arial, Helvetica, sans-serif;
+        margin: auto;
+        color: white; text-shadow: 
+      }
+       h2{
+        font-family:Arial, Helvetica, sans-serif;
+        margin: auto;
+        color: white; 
+       }
+        h3{
+        font-family:Arial, Helvetica, sans-serif;
+        margin: auto;
+        color: white;
+        }
+        */
+
+        /* COR DA LETRA DOS TEXTOS*/
+      p{
+        color: black;
+        font-size: 15px;
+        font-family:Arial, Helvetica, sans-serif;
+         margin: auto;
+         
+        }
+
+   /* menus*/     
+li{
+  float: left; /* a lista fica horizontal e ficam uma do lado da outra*/
+
+}
+
+/* menus*/
+
+li a{/*todo li que tiver usando a tag "a", vai ser modificado conforme o código abaixo*/
+font-family:Arial, Helvetica, sans-serif;
+margin: auto;
+display: block;/*mostrar*/
+color: #ffe8d6; /* cor da letra*/
+text-align: center;
+padding: 14px 16px;
+text-decoration: none; /* tira o sublinhado*/
+}
+
+
+/*   Estilo do botão minimizar e mostrar texto da pagina perfil*/
+#show{
+background-color: #926D67;
+color: #D9C4B8;
+border-radius: 4px; 
+padding: 10px; 
+cursor: pointer;  
+border: none; 
+font-size: 12px;
+
+}
+
+#hide{
+  background-color: #926D67;
+color: #D9C4B8;
+border-radius: 4px; 
+padding: 10px; 
+cursor: pointer;  
+border: none; 
+font-size: 12px;
+}

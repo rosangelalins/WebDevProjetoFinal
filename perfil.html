@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Projeto Final</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+
+	<!-- JQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+
+	</script>
+
+	<!--aqui começa o bootstrap-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	 crossorigin="anonymous">
+
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+	 crossorigin="anonymous">
+
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+	 crossorigin="anonymous">
+
+	</script>
+	<!-- Final do bootstrap -->
+
+<!--  Script dos botões da pagina perfil-->
+	<script>
+		//esconde o botão
+  $(document).ready(function(){
+    $("#hide").click(function(){
+      $("p").hide()
+    })
+//aparece o botão
+    $("#show").click(function(){
+    $("p").show()
+   })
+  })
+
+	</script>
+</head>
+
+<body>
+	<!-- jumbotron-->
+	<!--  essa é a div do cabeçalho-->
+		<div class="jumbotron text-center" style="background:#926D67; color:#080B0D;">
+		<h3>Rosângela Lins</h3>
+    		<h5>Graduated in Information Technology Management, student of Web Programming and UX/UI Design.</h5>
+
+
+		<div class="container-fluid">
+			<div class="row">
+        <!-- grid de tamanho 12-->
+				<div class="col-md-12">
+          <!-- Colocando imagem-->
+					<img alt="Rosângela Lins" src="/img/img1.jpg" class="rounded-circle" width="200" height="200" />
+</div>
+		</div>
+	</div>
+
+</div>
+
+<!-- NavBar Toggler - Menu hamburguer(toggler button)-->
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <a class="navbar-brand" href="index.html">Home</a>
+
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <!-- da para mudar o icone do menu-->
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+  <ul class="navbar-nav">
+   <!-- <li class="nav-item ">
+      
+      <a class="nav-link active" href="index.html">Inicio</a>
+      
+    </li>
+    -->
+    <li class="nav-item">
+      <a class="nav-link" href="portfolio.html">Portfolio</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="perfil.html">Perfil</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " href="contato.html">Contato</a>
+    </li>
+  </ul>
+
+  </div>
+</nav>
+ <div class="container">
+
+  <!-- botão em JQuery -->
+<div>
+
+<!-- <p>Clique em "Minimizar", para que o texto diminua:</p> -->
+
+<button id="hide">Minimizar Conteúdo</button>
+<button id="show">Mostrar Conteúdo</button>
+
+</div>
+
+<br>
+
+</div>
+<!-- botão em JQuery termina aqui -->
+
+<!-- criando um botão para um link externo de artigos -->
+
+<div class="container">
+
+<a href="https://br.lipsum.com/feed/html" target="_blank"><button style="background: #926D67; border-radius: 4px; padding: 10px; cursor: pointer; color: #D9C4B8; border: none; font-size: 12px;">Publicações</button></a>
+
+<div> 
+  <!-- fim do botão com link externo -->
+
+  <br>
+
+<!-- aqui começa os Grids para o texto sobre meu perfil-->
+<div class="container">
+  <div class="row">
+
+    <!--  GRIDS -colunas do bootstrap-->
+<!-- .col-sm- é para telas pequenas, tamanho do grid, esse numero é pq o máximo é 12, então foi difidido 2 columas de tamanho 6.-->
+    <div class="col-sm-6" "background: #dee2e6;" >
+      <!--<h3>Column 1</h3> -->    
+     <!-- <h3>Seja bem vindo(a) ao meu Perfil!</h3>  --> 
+    
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit placerat arcu, non suscipit felis tempor vitae. Donec ullamcorper, erat non mattis semper, nunc quam aliquam sem, volutpat mollis eros libero et arcu. Ut dapibus, felis at condimentum hendrerit, lacus nibh porttitor enim, quis volutpat odio lectus eu elit. Praesent et pretium diam, vitae venenatis purus. Donec faucibus fringilla enim. Sed blandit mattis orci dapibus aliquam. Donec imperdiet, est dapibus pellentesque vestibulum, ligula orci tempus nunc, sit amet lobortis orci nisl quis purus.</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit placerat arcu, non suscipit felis tempor vitae. Donec ullamcorper, erat non mattis semper, nunc quam aliquam sem, volutpat mollis eros libero et arcu. Ut dapibus, felis at condimentum hendrerit, lacus nibh porttitor enim, quis volutpat odio lectus eu elit. Praesent et pretium diam, vitae venenatis purus. Donec faucibus fringilla enim. Sed blandit mattis orci dapibus aliquam. Donec imperdiet, est dapibus pellentesque vestibulum, ligula orci tempus nunc, sit amet lobortis orci nisl quis purus.</p>
+     
+    </div>
+    <!-- divisão em coluna para ficar mais charmoso-->
+    <div class="col-sm-6" "background: #dee2e6;" >
+            <!-- <h3>Seja bem vindo(a) ao meu Perfil!</h3> -->  
+
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit placerat arcu, non suscipit felis tempor vitae. Donec ullamcorper, erat non mattis semper, nunc quam aliquam sem, volutpat mollis eros libero et arcu. Ut dapibus, felis at condimentum hendrerit, lacus nibh porttitor enim, quis volutpat odio lectus eu elit. Praesent et pretium diam, vitae venenatis purus. Donec faucibus fringilla enim. Sed blandit mattis orci dapibus aliquam. Donec imperdiet, est dapibus pellentesque vestibulum, ligula orci tempus nunc, sit amet lobortis orci nisl quis purus.</p>
+
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse blandit placerat arcu, non suscipit felis tempor vitae. Donec ullamcorper, erat non mattis semper, nunc quam aliquam sem, volutpat mollis eros libero et arcu. Ut dapibus, felis at condimentum hendrerit, lacus nibh porttitor enim, quis volutpat odio lectus eu elit. Praesent et pretium diam, vitae venenatis purus. Donec faucibus fringilla enim. Sed blandit mattis orci dapibus aliquam. Donec imperdiet, est dapibus pellentesque vestibulum, ligula orci tempus nunc, sit amet lobortis orci nisl quis purus.</p>
+
+  </div>
+  
+</div>
+
+<br>
+
+    <!-- botão em JQuery -->
+
+  <!-- 
+<div>
+
+<p>Clique em "Minimizar", para que o texto diminua:</p>
+
+<button id="hide">Minimizar Texto</button>
+<button id="show">Mostrar Texto</button>
+
+</div>
+-->
+<!-- botão em JQuery termina aqui -->
+
+	<script src="script.js">
+	</script>
+</body>
+</html>

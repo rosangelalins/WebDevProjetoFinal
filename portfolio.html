@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Projeto Final</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<!-- JQuery-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+
+	</script>
+
+	<!--aqui começa o bootstrap-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+	 crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+	 crossorigin="anonymous">
+
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+	 crossorigin="anonymous">
+
+	</script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+	 crossorigin="anonymous">
+
+	</script>
+	<!-- Final do bootstrap -->
+
+  <!-- usei estilo aqui mesmo pois estava com dificuldade no tamanho das imagens -->
+	<style>
+		/* Make the image fully responsive */
+		.carousel-inner img {
+			width: 100%;
+			height: 100%;
+		}
+	</style>
+
+</head>
+
+<body>
+		<!-- jumbotron-->
+	<!--  essa é a div do cabeçalho-->
+		<div class="jumbotron text-center" style="background:#926D67; color:#080B0D;">
+		<h3>Rosângela Lins</h3>
+    		<h5>Graduated in Information Technology Management, student of Web Programming and UX/UI Design.</h5>
+
+
+		<div class="container-fluid">
+			<div class="row">
+        <!-- grid de tamanho 12-->
+				<div class="col-md-12">
+          <!-- Colocando imagem-->
+					<img alt="Rosângela Lins" src="/img/img1.jpg" class="rounded-circle" width="200" height="200" />
+</div>
+		</div>
+	</div>
+
+</div>
+
+<!-- navbar-->
+<nav class="navbar navbar-expand-sm bg-light navbar-light">
+    <a class="navbar-brand" href="index.html">Home</a>
+
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <!-- da para mudar o icone do menu-->
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+  <ul class="navbar-nav">
+   <!-- <li class="nav-item ">
+      
+      <a class="nav-link active" href="index.html">Inicio</a>
+      
+    </li>
+    -->
+    
+    <li class="nav-item">
+      <a class="nav-link " href="portfolio.html">Portfolio</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="perfil.html">Perfil</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " href="contato.html">Contato</a>
+    </li>
+  </ul>
+
+  </div>
+</nav>
+
+<!-- Inicio do Carousel-->
+
+  <div class="container mt-3">
+<!-- <h3>Portfólio </h3>-->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+
+  </ul>
+  
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/imgCarousel/projetoMobileLogo.png" alt="1" width="500" height="250">
+    </div>
+    <div class="carousel-item">
+      <img src="/imgCarousel/projetoMobile1.png" alt="2" width="500" height="250">
+    </div>
+    <div class="carousel-item">
+      <img src="/imgCarousel/projetoMobile7.png" alt="3" width="500" height="250">
+    </div>
+    
+    <!--
+    <div class="carousel-item">
+      <img src="/imgCarousel/5.png" alt="5" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="/imgCarousel/6.png" alt="6" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="/imgCarousel/7.png" alt="7" width="1100" height="500">
+    </div>
+    <div class="carousel-item">
+      <img src="/imgCarousel/8.png" alt="8" width="1100" height="500">
+    </div>
+    -->
+  </div>
+  
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+</div>
+
+<!-- fim do Carousel -->
+<p></p>
+
+<!-- GALERIA-->
+<div class="container">
+  <h4>Alguns projetos que participei:</h4>
+  <h4>Clique nas imagens para ver com mais qualidade:</h4>
+
+  <div class="row">
+    <!--  GRIDS - colunas do bootstrap-->
+<!-- .col-sm- é para telas pequenas, tamanho do grid, esse numero é pq o máximo é 12, então foi difidido 3 columas de tamanho 4.-->
+    <div class="col-sm-4" >
+<p></p>
+      <!--<h3>Column 1</h3> -->       
+      <a target="blank"href="/imgCarousel/projetoMobile1.png">
+        <img src="/imgCarousel/projetoMobile1.png" alt="" width="300" height="150">
+      </a>
+      <p></p>
+      <a target="blank"href="/imgCarousel/projetoMobile2.png">
+        <img src="/imgCarousel/projetoMobile2.png" alt="" width="300" height="500">
+      </a>
+    </div>
+    <!-- cor da coluna-->
+    <!--  <div class="col-sm-4" style="background: #adb5bd;">-->
+    <div class="col-sm-4">
+<p></p>
+
+      <!--<h3>Column 2</h3> -->       
+      <a target="blank"href="/imgCarousel/projetoMobile3.png">
+        <img src="/imgCarousel/projetoMobile3.png" alt="" width="300" height="500">
+      </a>
+      </a>
+      <p></p>
+      <a target="blank"href="/imgCarousel/projetoMobile4.png">
+        <img src="/imgCarousel/projetoMobile4.png" alt="" width="300" height="500">
+      </a>
+
+    </div>
+    <div class="col-sm-4">
+<p></p>
+      <!--<h3>Column 3</h3> -->       
+      <a target="blank"href="/imgCarousel/projeto5.png">
+        <img src="/imgCarousel/projetoMobile5.png" alt="" width="300" height="550">
+      </a>
+      <p></p>
+      <a target="blank"href="/imgCarousel/projetoMobile6.png">
+        <img src="/imgCarousel/projetoMobile6.png" alt="" width="300" height="500">
+      </a>
+    </div>
+  </div>
+  
+</div>
+<!-- fim da galeria-->
+
+	<script src="script.js">
+	</script>
+</body>
+</html>
